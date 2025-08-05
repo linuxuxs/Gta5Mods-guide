@@ -1,9 +1,9 @@
-In Visual Studio 2022, you will need to have:  
-* the Class Library (.NET Framework) project template.
+In order to create mods, you will need to have:  
+* the Class Library (.NET Framework) project template in VS2022.
 * GTA5   
 * C# and programming experience 
 
-After creating the project, in the **Solution Explorer** right-click **References**, and add a new reference.  
+After creating the project in VS2022, in the **Solution Explorer** right-click **References**, and add a new reference.  
 
 Go inside Browse, and click on the Browse button, the one next to OK and Cancel. Navigate to your GTA5 main directory, and find the ScriptHookVDotNet2.dll file, and select it.  
 
