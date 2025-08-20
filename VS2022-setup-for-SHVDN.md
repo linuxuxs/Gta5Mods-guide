@@ -2,12 +2,18 @@ In order to create mods, you will need to have:
 * the Class Library (.NET Framework) project template in VS2022.
 * GTA5   
 * C# and programming experience
-* SHVDN v3
+* SHVDN v2 OR SHVDN v3
+---------
 
-After creating the project in VS2022, in the **Solution Explorer** right-click **References**, and add a new reference.  
+After creating the project in VS2022, in the **Solution Explorer** right-click **References**, and add a new reference.
 
-Go inside Browse, and click on the Browse button, the one next to OK and Cancel. Navigate to your GTA5 main directory, and find the ScriptHookVDotNet3.dll file, and select it.  
+# SHVDN v2:
+ Go inside Browse, and click on the Browse button, the one next to OK and Cancel. Navigate to your GTA5 main directory, and find the ScriptHookVDotNet2.dll file, and select it. 
 
+# SHVDN v3:
+Go inside Browse, and click on the Browse button, the one next to OK and Cancel. Navigate to your GTA5 main directory, and find the ScriptHookVDotNet3.dll file, and select it.   
+
+----
 Then, click on Assemblies -> Framework -> and search for **System.Windows.Forms**.    
 After youre done, click OK.
 
