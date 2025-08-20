@@ -8,4 +8,5 @@ Here are some useful documentation:
 * [The ScriptHookVDotNet repo](https://github.com/scripthookvdotnet/scripthookvdotnet)    
 * [Native Reference Docs](https://docs.fivem.net/natives/#_0x132F52BBA570FE92)
 * [Multi Theft Auto: Wiki](https://wiki.multitheftauto.com/wiki/Main_Page)
+* [Getting started in scripthookvdotnet](https://nitanmarcel.github.io/scripthookvdotnet/index.html?utm_source=chatgpt.com)
 
