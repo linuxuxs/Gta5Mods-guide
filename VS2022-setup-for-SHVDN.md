@@ -30,15 +30,20 @@ namespace test {
 
     public Main(){
       Tick += onTickFuncName;
-      KeyDown += onKeyPressedName;
+      KeyDown += onKeyDownName;
+      KeyUp += onKeyUpName;
      }
 
-     private void onTickFuncName(){
+     private void onTickFuncName(object sender, EventArgs e){
       //do stuff every tick
      }
 
-     private void onKeyPressedName(){
-      //do stuff every key pressed
+     private void onKeyDownName(object sender, GTA.KeyEventArgs e){
+      //do stuff when any key pressed down
+     }
+
+     private void onKeyUpName(object sender, GTA.KeyEventArgs e){
+      //do stuff when any key is released
      }
 
   }
@@ -65,7 +70,11 @@ Tick += onTickFuncName;
 ```
 Whenever the player presses a key, onKeyDown is triggered.
 ```
-KeyDown += onKeyPressedName;
+KeyDown += onKeyDownName;
+```
+Whenever the player releases a key, onKeyUpName is triggered.
+```
+ KeyUp += onKeyUpName;
 ```
 ----
 
